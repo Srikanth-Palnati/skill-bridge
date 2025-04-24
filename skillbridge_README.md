@@ -21,7 +21,6 @@ Installation Instructions
 
 git clone https://github.com/Srikanth-Palnati/skill-bridge
 cd skillbridge
-
 2. Install Dependencies
 
 
@@ -31,10 +30,12 @@ npm install && npm run dev
 3. Set Up Environment
 Create a .env file and update with the following values:
 
+
+
 DB_DATABASE=skillbridge
 
 MAIL_USERNAME=skillbridge@gmail.com
-MAIL_PASSWORD=opia ddvf kuho asff
+MAIL_PASSWORD=opia fafs rwed dfsf
 MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS=skillbridge@gmail.com
 MAIL_FROM_NAME=skillbridge
@@ -42,7 +43,7 @@ MAIL_SERVICE_PROVIDER=Google
 
 QUEUE_CONNECTION=database
 
-STRIPE_SECRET=sk_test_51RGLH3Q8ynU2trOCrLCOZvToPIg3hUVqzHiUHWa9k4OOq5wE7nMuiaDYwjxaPynwZLsiZWsRwjup7uEGsm4eMOiI00rzLA74qK
+
 Ensure you’ve set up your database (skillbridge) and have correct DB credentials.
 
 4. Run Migrations
