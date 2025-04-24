@@ -43,7 +43,7 @@ MAIL_SERVICE_PROVIDER=Google
 
 QUEUE_CONNECTION=database
 
-STRIPE_SECRET = "sk_test_***your_key***"
+
 Ensure you’ve set up your database (skillbridge) and have correct DB credentials.
 
 4. Run Migrations
