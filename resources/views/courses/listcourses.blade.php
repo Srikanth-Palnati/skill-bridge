@@ -33,7 +33,7 @@
                 <td class="px-4 py-2">{{ $course->instructor }}</td>
                 <td class="px-4 py-2">{{ number_format($course->price, 2) }}</td>
                 <td class="px-4 py-2">{{ $course->description }}</td>
-                <td class="px-4 py-2">{{ $course->created_at->format('M-d-Y') }}</td>
+                <td class="px-4 py-2" style="white-space: nowrap;">{{ $course->created_at->format('M-d-Y') }}</td>
                 <td class="px-4 py-2">
                     <div class="flex items-center gap-x-4">
         {{-- View --}}
